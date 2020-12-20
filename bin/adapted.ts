@@ -3,4 +3,4 @@ import * as cdk from '@aws-cdk/core';
 import { AdaptedStack } from '../lib/adapted-stack';
 
 const app = new cdk.App();
-new AdaptedStack(app, 'AdaptedStack');
+new AdaptedStack(app, 'ADAPT-ED');
