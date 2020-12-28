@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as cdk from '@aws-cdk/core';
-import { AdaptedStack } from '../lib/adapted-stack';
+import { AppStack } from '../stack/stack';
 
 const app = new cdk.App();
-new AdaptedStack(app, 'ADAPT-ED');
+new AppStack(app, 'ADAPT-ED');
